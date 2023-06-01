@@ -78,7 +78,7 @@ div.container div.content div.temp div.main {
   justify-content: center;
   flex-direction: column;
 }
-div.container div.content div.temp div.main span.temprature {
+div.container div.content div.temp div.main span.temperature {
   font-size: 48px;
   margin-bottom: 4px;
 }
