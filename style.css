@@ -72,6 +72,9 @@ div.container div.content div.temp {
   padding: 0 30px;
   display: flex;
 }
+div.container div.content div.temp span.celcius {
+  font-size: 70%;
+}
 div.container div.content div.temp div.main {
   margin-right: 26px;
   display: flex;
@@ -79,6 +82,7 @@ div.container div.content div.temp div.main {
   flex-direction: column;
 }
 div.container div.content div.temp div.main span.temperature {
+  display: flex;
   font-size: 48px;
   margin-bottom: 4px;
 }
@@ -102,6 +106,7 @@ div.container div.content div.temp div.wrapper div.card span.title {
 }
 div.container div.content div.temp div.wrapper div.card span.value {
   font-size: 20px;
+  display: flex;
 }
 div.container div.content div.detail {
   padding: 0 30px;
@@ -109,9 +114,9 @@ div.container div.content div.detail {
   justify-content: space-between;
 }
 div.container div.content div.detail div.card {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 div.container div.content div.detail div.card span.title {
   font-size: 13px;
@@ -124,5 +129,5 @@ div.container div.content div.detail div.card div.wrapper span.value {
 div.container div.content div.detail div.card div.wrapper span.unit {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.45);
-  margin-left: -4px;
+  margin-left: -3px;
 }/*# sourceMappingURL=style.css.map */

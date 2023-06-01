@@ -76,6 +76,10 @@ div.container {
       padding: 0 30px;
       display: flex;
       
+      span.celcius {
+        font-size: 70%;
+      }
+
       div.main {
         margin-right: 26px;
         display: flex;
@@ -83,6 +87,7 @@ div.container {
         flex-direction: column;
 
         span.temperature {
+          display: flex;
           font-size: 48px;
           margin-bottom: 4px;
         }
@@ -107,6 +112,7 @@ div.container {
           }
           span.value {
             font-size: 20px;
+            display: flex;
           }
         }
       }
@@ -116,12 +122,11 @@ div.container {
       padding: 0 30px;
       display: flex;
       justify-content: space-between;
-
+      
       div.card {
-        // border: solid red;
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
 
         span.title {
           font-size: 13px;
@@ -129,16 +134,13 @@ div.container {
           color: rgba(0, 0, 0, 0.45);
         }
         div.wrapper {
-          // border: solid red 1px;
           span.value {
             font-size: 26px;
-            // border: solid red 1px;
           }
           span.unit {
-            // border: solid red 1px;
             font-size: 13px;
             color: rgba(0, 0, 0, 0.45);
-            margin-left: -4px;
+            margin-left: -3px;
           }
         }
       }
